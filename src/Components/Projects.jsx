@@ -29,7 +29,12 @@ const Projects = () => {
     <>
       <div className='projects'>
         <h1 className='h1pro'>PROJECTS</h1>
-        <article className="card card--4">
+        
+        
+       
+        <section className="cards">
+          
+          <article className="card card--4">
             <div className="card__img"></div>
             <a href="https://github.com/adityagaur200/SynQ" className="card_link">
               <div className="card__img--hover"></div>
@@ -42,8 +47,7 @@ const Projects = () => {
               </span>
             </div>
           </article>
-        
-        <article className="card card--2">
+           <article className="card card--2">
             <div className="card__img"></div>
             <a href="https://github.com/adityagaur200/closhopv" className="card_link">
               <div className="card__img--hover"></div>
@@ -56,7 +60,6 @@ const Projects = () => {
               </span>
             </div>
           </article>
-        <section className="cards">
           <article className="card card--1">
             <div className="card__img"></div>
             <a href="https://github.com/adityagaur200/ExpenseTrackerApp" className="card_link">
