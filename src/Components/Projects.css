@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+.projects {
+    width: 100%;
+    height: 100vh;
+    background-color: #121213e6;
+    padding: 20px; 
+}
+.projects h1 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 3rem; 
+    margin-bottom: 20px; 
+    color: #ffffff;
+    text-align: center; 
+}
+
+.cards {
+    display: flex;
+    flex-direction: row; 
+    overflow-x: auto; 
+    gap: 25px; 
+    padding: 10px 0; 
+    width: 100%;
+    justify-content: center; 
+}
+
+.card {
+    flex: 0 0 auto; 
+    width: 300px; 
+    background-color: #fff;
+    margin-bottom: 10vh;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+}
+
+.card:hover {
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.10);
+}
+
+.card__img,
+.card__img--hover {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 235px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card__img {
+    visibility: hidden;
+}
+
+.card__img--hover {
+    transition: 0.2s all ease-out;
+    position: absolute;
+    top: 0;
+}
+
+.card__info {
+    background-color: #fff;
+    padding: 16px 24px 24px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    position: relative;
+    z-index: 2;
+}
+
+.card__info-hover {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 16px;
+    opacity: 0;
+}
+
+.card__category {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #868686;
+}
+
+.card__title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card__by {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.card__author {
+    font-weight: 600;
+    text-decoration: none;
+    color: #AD7D52;
+}
+
+.card:hover .card__img--hover {
+    height: 100%;
+    opacity: 0.3;
+}
+
+.card:hover .card__info {
+    background-color: transparent;
+}
+
+.card:hover .card__info-hover {
+    opacity: 1;
+}
+.card--1 .card__img, .card--1 .card__img--hover {
+    background-image: url('../../public/tracker.png');
+}
+.card--2 .card__img, .card--2 .card__img--hover {
+    background-image: url('../../public/web1.png');
+}
+.card--3 .card__img, .card--3 .card__img--hover {
+    background-image: url('../../public/insta.png');
+}
+.card--4 .card__img, .card--4 .card__img--hover {
+    background-image: url("../../public/image.png");
+}
+
+.stackdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+
+.divider{
+    width: 97vw;
+}

@@ -1,0 +1,82 @@
+body {
+    overflow-x: hidden; 
+  }
+  
+  .tech {
+    color:aliceblue;
+    text-align: center;
+    font-size: 3rem;
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom: 20px;
+  }
+  
+  .scrolling {
+    display: flex;
+    gap: 20px; 
+    width: max-content; 
+  }
+  
+  .pic {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+  }
+  
+  .maindiv
+  {
+    background-color: transparent;
+    position: relative;
+    z-index: 2;
+    width:100%;
+    height: 100vh;
+  }
+  
+  .intro
+  {
+    display: flex;
+   justify-content: center; 
+  }
+
+  .introdiv{
+    margin-top: 5vh;
+    margin-bottom:5vh;
+    width: 70vw;
+  }
+  .introtag{
+    color:aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    
+  }
+  .introh2{
+    color:aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:x-large;
+  }
+
+  .tag9{
+    color:aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .tag91{
+    color:aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: end;
+  }
+.backgrounddiv
+{
+  width:100%;
+  height: 100vh;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+}
+.backgrounddiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+  object-position: center; 
+  filter:blur(6px)
+}

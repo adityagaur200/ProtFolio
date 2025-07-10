@@ -1,0 +1,33 @@
+
+
+.shapediv{
+    margin: 0%;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.938);
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+
+.app-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black; 
+  
+  }
+  
+  .main-content {
+    position: relative;
+    opacity: 1;
+    transition: opacity 0.8s ease; 
+  }
+  
+  .main-content.hidden {
+    opacity: 0; 
+  }
+  
+ 
