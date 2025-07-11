@@ -6,7 +6,7 @@ const Page2 = () => {
         <div className='div1'>
             <div className='div2'>
             <h1 className="name">ADITYA GAUR</h1>
-            <a href='./ADITYA GAUR.pdf'><h1 className='aboutme'>RESUME</h1></a>
+            <a href='./AdityaGaur.pdf'><h1 className='aboutme'>RESUME</h1></a>
             </div> 
         <div className='div1context'>
             <div className='div2context'>
